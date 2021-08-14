@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+        </meta>
+    </head>
+    <body>
+    <ul>
+    	<li> 
+    			<script >
+    				var pengirimA ="nama pengirim "
+    				var pengirimB =prompt("masukkan nama pengirim ");
+    				document.write(pengirimA)
+    				document.write(pengirimB)
+    			</script>
+    	</li>
+    	</ul>
+       <ul>
+       	 <li>
+       	    <script>
+       	    	var  penerimaA= "nama penerima "
+       	    	var  penerimaB= prompt("masukkan nama penerima ")
+       	    	document.write( penerimaA)
+       	    	document.write( penerimaB)
+       	    </script>	
+
+       	 </li>
+       </ul>
+        <ul>
+        	<li>
+
+         <script >
+            var km21="jarak pengiriman"
+            var km22=prompt("masukkan jarak pengiriman(KM)")
+            document.write(km21)
+            document.write(km22)
+
+                var jarak_1= "Total jarak pengiriman :Rp."
+                  var jarak_2= prompt("Ulangi!(tidak menggunakan satuan (KM)")
+                   var jrk= (jarak_2*10000)
+
+                  if (jrk>=50000){
+                   const potongan= 10/100
+                   var jml = jrk*potongan
+                   var hsl = jrk-jml
+                   document.write(jarak_1)
+                   document.write(hsl)
+                  } else{
+                  	document.write(jarak_1)
+                   document.write(jrk)
+                  }
+
+        </script>
+    </li>
+      </ul>
+
+    <ul>
+    	<li>
+    		<script>
+    			var alamatA= "alamat penerima "
+    			var alamatB= prompt("masukkan alamat penerima" )
+    			document.write(alamatA);
+    			document.write(alamatB);
+    		</script>
+    	</li>
+    </ul>
+    <ul>
+    	<li>
+    		<script>
+    			var barangA = "jenis barang: ";
+    			var barangB = prompt("masukkan jenis barang")
+    			document.write(barangA);
+    			document.write(barangB) ;  
+    			</script>			
+    				<script>
+    					var kg1= "berat barang :"
+    					var kg2= prompt("masukkan berat barang (KG)");
+    					document.write(kg1);
+    					document.write(kg2);
+
+    					var berat_1= "...Total harga berat barang adalah :Rp."
+    					var berat_2= prompt("Ulangi!(tidak menggunakan satuan (KG)")
+    					 var brt = (berat_2*5000)
+    					if(brt>=10000){
+    						 const ng = 0.05
+    					     var jmll = brt*ng
+    					     var hsll = brt-jmll
+    					     document.write(berat_1)
+    					     document.write(hsll)
+    				} else{
+    				       document.write(berat_1)
+    			            document.write(brt)
+    			        }
+
+    				</script>
+    			</li>
+    			</ul>
